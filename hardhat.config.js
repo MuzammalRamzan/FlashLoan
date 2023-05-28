@@ -26,3 +26,7 @@ module.exports = {
 		apiKey: process.env.ETHERSCAN_API_KEY,
 	},
 };
+
+/*******************************************/
+// npm run deploy
+// npx hardhat verify --network bsctestnet CONTRACT_ADDRESS "" ""
